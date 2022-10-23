@@ -1,27 +1,24 @@
 {
   "name": "operational-games",
   "version": "1.0.0",
-  "description": "",
+  "description": "The website for Operational Games",
   "main": "index.js",
-  "dependencies": {
-    "a-sync-waterfall": "^1.0.1",
-    "asap": "^2.0.6",
-    "bootstrap": "^5.2.2",
-    "bootstrap-icons": "^1.9.1",
-    "commander": "^5.1.0",
-    "data-uri-to-buffer": "^4.0.0",
-    "fetch-blob": "^3.1.5",
-    "formdata-polyfill": "^4.0.10",
-    "mime": "^3.0.0",
-    "node-domexception": "^1.0.0",
-    "node-fetch": "^3.2.6",
-    "nunjucks": "^3.2.3",
-    "web-streams-polyfill": "^3.2.1"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Operational-Games/Operational-Games.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Operational-Games/Operational-Games/issues"
+  },
+  "homepage": "https://github.com/Operational-Games/Operational-Games#readme",
+  "dependencies": {
+    "mime": "^3.0.0",
+    "nunjucks": "^3.2.3"
+  }
 }
